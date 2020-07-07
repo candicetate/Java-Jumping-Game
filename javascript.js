@@ -18,11 +18,8 @@ function jump(event) {
   }, 300);
 }
 
-//Event Listener
-let jumpClick = document.querySelector("#character");
-jumpClick.addEventListener("click", jump);
-
-jump();
+//Event Listener1
+document.addEventListener("click", jump);
 
 // Check if you died
 var checkDead = setInterval(function () {
